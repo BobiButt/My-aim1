@@ -1,0 +1,35 @@
+
+@media(max-width:760px){
+    .burger{
+        display: block;
+    }
+    .nav_links{
+        display: none;
+    }
+    .register{
+        display: none;
+    }
+    .main_hr{
+        display: block;
+    }
+    .main_content_1{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .main_content_2{
+width: 70%;
+align-items: center;
+/* padding-right: 50px; */
+    }
+    .main_content_2 img{
+        padding: 0%;
+        /* margin: auto; */
+        margin-left: 70px;
+        align-self: center;
+    }
+    .services_flex_main_sub2 img{
+        height: 100%;
+width: 100%;
+    }
+}
