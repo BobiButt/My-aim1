@@ -301,12 +301,14 @@ margin-top: 30px;
 
 }
 .services_flex_main_sub1_btn a{
-padding: 10px;
-background-color: transparent;
-border: 1px solid white;
-
-text-decoration: none;
-border-radius: 20px;
+    text-decoration: none;
+    /* background-color: rgb(87, 85, 85, 0.5); */
+    background-color: transparent;
+   padding: 10px;
+   /* border-radius: 20px; */
+   /* border: 1px solid rgb(207, 207, 82); */
+   border: 1px solid transparent;
+   border-bottom: 1px solid white;
 }
 .services_flex_main_sub1_btn i{
     padding-right: 5px;
