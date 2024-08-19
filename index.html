@@ -19,8 +19,8 @@
         <div>
             <h2>Wcoj</h2>
         </div>
-        <div class="nav_links">
-            <ul>
+        <div class="nav_links" id="nav">
+            <ul id="ul">
                 <li class="my_list"><a href="">PRODUCTS</a> </li>
                 <li class="my_list"><a href="">SOLUTIONS</a> </li>
                 <li class="my_list"><a href="">CUSTOMER</a> </li>
@@ -28,12 +28,12 @@
                 <li class="my_list"><a href="">RESOURCES</a> </li>
             </ul>
         </div>
-        <div class="burger" onclick="fun()">
+        <div class="burger" onclick="handleMenu()">
             <div></div>
             <div></div>
             <div></div>
         </div>
-        <div class="register"><a href="" onclick="msg()">REGISTER NOW<i class="fa fa-arrow-right arrow"
+        <div class="register" id="reg"><a href="" onclick="msg()">REGISTER NOW<i class="fa fa-arrow-right arrow"
                     aria-hidden="true"></i></a>
         </div>
     </nav>
@@ -80,7 +80,9 @@
                 <li><i class="fa fa-star" aria-hidden="true"></i> Brand</li>
 
             </ul>
+            
         </div>
+        <hr class="banner_alter">
     </main>
     <section class="services">
         <div class="services_head">
@@ -172,8 +174,8 @@
                 </div>
                 <div class="footer_4">
                     <h2>Subscribe For More Info</h2>
-                    <input type="emai" placeholder=" Enter Your Email...">
-                    <a href="" onclick="msg()">Subscribe</a>
+                   <div> <input type="emai" placeholder=" Enter Your Email..."></div>
+                    <div class="footer_4_a_div"><a href="" onclick="msg()">Subscribe</a></div>
                 </div>
             </div>
         </div>

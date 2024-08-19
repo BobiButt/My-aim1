@@ -11,6 +11,35 @@ body{
 hr{
     margin: 0% 10% 0% 10%;
 }
+
+
+#nav.active{
+    display: block;
+    transition: all 2s ease;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+
+
+}
+#ul.active1{
+    display: block;
+    flex-direction: column;
+    /* background-color: black; */
+    background-color: rgb(87, 85, 85, 0.95);
+    filter: blur(90%);
+
+    color: aliceblue;
+}
+#reg.active1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+
+    color: aliceblue;
+}
 .none{
     display: none;
 }
@@ -24,6 +53,7 @@ hr{
     align-items: center;
     text-align: center;
      height:80px ;
+     transition: all 2s ease-in-out;
 }
 .nav_links ul{
     display: flex;
@@ -40,7 +70,7 @@ hr{
     background-color: rgb(87, 85, 85, 0.5);
 
 }
-.responsive_nav{
+/* .responsive_nav{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -49,8 +79,8 @@ hr{
     text-align: left;
     /* background-color: black;
     color: white; */
-}
-.responsive_nav .ul{
+/* } */
+/* .responsive_nav .ul{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -59,7 +89,7 @@ hr{
     text-align: left;
     /* background-color: black;
     color: white; */
-}
+/* } */ 
 
 .burger{
     /* background-color: aqua; */
@@ -69,7 +99,7 @@ hr{
 .burger div{
     height: 5px;
     width: 30px;
-    background-color: black;
+    background-color: white;
     margin-top: 3px;
 }
 .register a{
@@ -229,6 +259,11 @@ margin-left: 100px;
     padding-bottom: 20px;
     text-align: center;
 }
+.banner_alter{
+    display: none;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
 /*----------------------------------------------------------*/
 .services_head{
     text-align: center;
@@ -283,7 +318,9 @@ border-radius: 20px;
     text-align: center;
 }
 .services_flex_main_sub2 img{
-
+width: auto;
+height: auto;
+padding: ;
 
 }
 /*------------------------------------------------------*/
@@ -317,11 +354,14 @@ width: 100%;
 /*------------------------------------------------------------------------------------------------------------------------------*/
 .footer{
     margin-top: 50px;
-   
+   overflow: visible;
+   box-sizing: border-box;
     border: 1px solid white;
     border-radius: 20px;
     padding-top: 50px;
     margin: 30px 30px 30px 30px;
+    width: auto;
+    height: auto;
 }
 .foot_divs{
     display: flex;
@@ -413,6 +453,10 @@ padding-bottom: 20px;
     color: black;
     background-color: white;
 }
+.footer_4_a_div{
+    height: 50px;
+    
+}
 .footer_4 a{
     text-decoration: none;
     /* background-color: rgb(87, 85, 85, 0.5); */
@@ -422,7 +466,9 @@ padding-bottom: 20px;
    /* border: 1px solid rgb(207, 207, 82); */
    border: 1px solid transparent;
    border-bottom: 1px solid white;
-   margin-top: 20px;
+ align-self: center;
+ margin-bottom: 30px;
+ margin-left: 20px;
 }
 .footer_4 a:hover{
     background-color: rgb(87, 85, 85, 0.5);
@@ -434,18 +480,19 @@ padding-bottom: 20px;
     background-color: transparent;
     /* width: 100%; */
     margin: 20px;
-    
+    /* width: 100%; */
 
 }
 .footer_4 input::placeholder{
     padding-left: 10px;
     color: white;
     font-weight: bold;
+    
 }
-.footer_4 input:default{
+/* .footer_4 input:default{
     border: 1px solid transparent;
-    border-bottom: 1px solid white;
-}
+    border-bottom: 1px solid white; */
+
 /*-----------------------------------------------------------------------------------------------------*/
 .footer_bottom{
     margin-top: 20px;

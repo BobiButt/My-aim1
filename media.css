@@ -5,12 +5,20 @@
     }
     .nav_links{
         display: none;
+        transition: all 1s ease-in-out;
     }
     .register{
         display: none;
     }
     .main_hr{
         display: block;
+    }
+    .main_banner{
+        display: none;
+    }
+    .banner_alter{
+        display: block;
+        color: aliceblue;
     }
     .main_content_1{
         width: 100%;
@@ -31,5 +39,14 @@ align-items: center;
     .services_flex_main_sub2 img{
         height: 100%;
 width: 100%;
+padding: 50px;
+    }
+    
+    .service_flex_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        /* background-color: aqua; */
     }
 }
