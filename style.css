@@ -310,6 +310,10 @@ margin-top: 30px;
    border: 1px solid transparent;
    border-bottom: 1px solid white;
 }
+.services_flex_main_sub1_btn a:hover{
+    background-color: rgb(87, 85, 85, 0.5);
+
+}
 .services_flex_main_sub1_btn i{
     padding-right: 5px;
 }
@@ -322,7 +326,7 @@ margin-top: 30px;
 .services_flex_main_sub2 img{
 width: auto;
 height: auto;
-padding: ;
+
 
 }
 /*------------------------------------------------------*/
